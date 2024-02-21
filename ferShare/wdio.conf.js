@@ -2,14 +2,7 @@ const path = require("path");
 //const { exec } = require("child_process");
 
 exports.config = {
-  // onComplete: function () {
-  //   // Explicitly kill the Appium server
-  //   exec("taskkill /F /IM node.exe", function (error) {
-  //     if (error) {
-  //       console.error("Error killing Appium server:", error);
-  //     }
-  //   });
-  // },
+
 
   //
   // ====================
