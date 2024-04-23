@@ -6,15 +6,15 @@ class LoginScreen extends AppAndroid {
     return $('android=new UiSelector().className("android.widget.ScrollView")');
   }
 
-  get LoginButton() {
+  get loginButton() {
     return $('android=new UiSelector().resourceId("IntroLoginSignInButton")');
   }
 
-  get SignupButton() {
+  get signupButton() {
     return $('android=new UiSelector().resourceId("IntroLoginSignUpButton")');
   }
 
-  get SkipLoginButton() {
+  get skipLoginButton() {
     return $('android=new UiSelector().resourceId("IntroLoginSkipButton")');
   }
 }
